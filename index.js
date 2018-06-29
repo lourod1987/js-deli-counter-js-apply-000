@@ -25,3 +25,10 @@ function currentLine(curLine) {
     return "The line is currently empty.";
   }
 }
+
+let i = 0;
+
+function takeANumberOldSchool() {
+   i += 1;
+  return i;
+}
